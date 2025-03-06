@@ -1,0 +1,18 @@
+Key Points:
+Strong Relationships:
+
+The strong negative correlation between current_speed and eta_minutes (-0.68) makes sense, as higher speeds typically reduce travel time.
+
+The moderate positive correlation between distance_to_next_stop and eta_minutes (0.27) is also logical, as longer distances generally increase travel time.
+
+Weak Relationships:
+
+The weak correlations between passenger_count and most other variables (close to 0) suggest that passenger count has little direct impact on speed, location, or distance to the next stop. This could be plausible if passenger count doesn't significantly affect driving behavior or route planning.
+
+The weak correlations between current_lat, current_lon, and other variables also seem reasonable, as geographical coordinates might not strongly influence factors like speed or passenger count.
+
+Potential Issues:
+
+The very weak correlations (close to 0) might indicate that some variables are not strongly related in your dataset. This isn't necessarily a problem, but it could mean that those variables don't provide much predictive power for each other.
+
+The moderate negative correlation between distance_to_next_stop and current_lat (-0.29) might need further investigation to ensure it aligns with your domain knowledge.
