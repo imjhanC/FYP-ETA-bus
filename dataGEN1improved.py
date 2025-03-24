@@ -7,11 +7,11 @@ def generate_bus_dataset(n_rows=100000):
     
     # Bus stops with their coordinates and names in sequence
     bus_stops = {
-        1: {'name': 'UTAR bus stop', 'coords': (3.0443577, 101.7947879)},
-        2: {'name': 'KJ370 Perumahan SG Long Seksyen 7', 'coords': (3.0475698, 101.7962749)},
-        3: {'name': 'KJ428 SMK SG Long', 'coords': (3.0481001, 101.7983384)},
-        4: {'name': 'Green Acre Condo', 'coords': (3.0438577, 101.7979894)},
-        5: {'name': 'SG Long Club House', 'coords': (3.0414835, 101.7986407)},
+        1: {'name': 'UTAR bus stop', 'coords': (3.0407471448078214, 101.79428266784733)},
+        2: {'name': 'KJ370 Perumahan SG Long Seksyen 7', 'coords': (3.0494060594683, 101.79887783856235)},
+        3: {'name': 'KJ428 SMK SG Long', 'coords': (3.0516256006477787, 101.8019216158928)},
+        4: {'name': 'Green Acre Condo', 'coords': (3.046006261941804, 101.80645957933339)},
+        5: {'name': 'SG Long Club House', 'coords': (3.0417399705210153, 101.80149234548512)},
     }
     
     # Calculate distances between consecutive stops
