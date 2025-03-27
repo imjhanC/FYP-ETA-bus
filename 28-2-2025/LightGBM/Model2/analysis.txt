@@ -1,0 +1,35 @@
+Error Metrics:
+
+Both models perform exceptionally well with very low error rates
+
+The optimized model shows slight but consistent improvements across all metrics:
+
+MAE improved by 2.7% (0.113 → 0.110 minutes)
+
+RMSE improved by 0.5% (0.185 → 0.184 minutes)
+
+MSE remained identical at 0.034
+
+R² improved marginally (0.9657 → 0.9659)
+
+Key Takeaways:
+
+The baseline model was already performing very strongly (R² > 0.96)
+
+Optimization yielded only minimal improvements, suggesting:
+
+The default LightGBM parameters were already well-suited for this task
+
+There may be limited room for improvement through hyperparameter tuning alone
+
+The data quality/features may be the limiting factor rather than model configuration
+
+Recommendations:
+
+The optimized model is slightly better and should be used
+
+Consider focusing on feature engineering rather than further hyperparameter tuning
+
+Investigate the remaining errors - they're already very small (average error ≈ 0.11 minutes or 6.6 seconds)
+
+The results suggest you have an excellent ETA prediction system where buses arrive within ±11 seconds of the predicted time on average.
