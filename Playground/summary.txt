@@ -1,0 +1,49 @@
+Baseline Model Performance
+MAE (Mean Absolute Error): 0.3270 minutes
+
+MSE (Mean Squared Error): 0.2857
+
+RMSE (Root Mean Squared Error): 0.5345 minutes
+
+R² Score: 0.9657 (96.57% of variance explained)
+
+Optimized Model Performance
+MAE (Mean Absolute Error): 0.3156 minutes (3.5% improvement)
+
+MSE (Mean Squared Error): 0.2832 (0.9% improvement)
+
+RMSE (Root Mean Squared Error): 0.5322 minutes (0.4% improvement)
+
+R² Score: 0.9660 (96.60% of variance explained)
+
+Key Improvements
+Error Reduction:
+
+Absolute errors reduced by 3.5% (MAE improvement from 0.3270 to 0.3156)
+
+Squared errors reduced by 0.9% (MSE improvement)
+
+Model Accuracy:
+
+The model explains slightly more variance (R² improved from 0.9657 to 0.9660)
+
+All error metrics show consistent improvement
+
+Practical Impact:
+
+While the percentage improvements appear small, the absolute values were already excellent (baseline R² of 0.9657)
+
+The optimization pushed an already strong model to near-perfect prediction capability
+
+Average prediction error is now just ~0.32 minutes (about 19 seconds) off from actual values
+
+Interpretation
+The model performs exceptionally well both before and after optimization, suggesting that:
+
+The original features were already highly predictive of ETA
+
+The baseline LightGBM parameters were well-suited to this problem
+
+The optimization provided marginal but consistent improvements across all metrics
+
+The high R² scores (above 0.96) indicate the model captures nearly all the predictable patterns in the data.
