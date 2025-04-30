@@ -1,0 +1,77 @@
+================================================================================
+ETA PREDICTION MODEL PERFORMANCE SUMMARY
+================================================================================
+
+TRAINING INFORMATION:
+Baseline Model Training Time: 0.17 seconds
+Optuna Optimization Time: 47.98 seconds
+Optimized Model Training Time: 1.57 seconds
+
+BASELINE MODEL METRICS:
+Test_MAE: 0.3270
+Test_MSE: 0.2857
+Test_RMSE: 0.5345
+Test_MAPE: 15191530000106468.0000
+Test_R2: 0.9657
+Test_Explained_Variance: 0.9657
+Test_Max_Error: 7.2591
+Test_Median_AE: 0.1803
+Train_MAE: 0.3169
+Train_MSE: 0.2531
+Train_RMSE: 0.5030
+Train_R2: 0.9697
+Overfitting_Ratio: 0.9411
+
+OPTIMIZED MODEL METRICS:
+Test_MAE: 0.3158
+Test_MSE: 0.2830
+Test_RMSE: 0.5320
+Test_MAPE: 14932324710715654.0000
+Test_R2: 0.9660
+Test_Explained_Variance: 0.9660
+Test_Max_Error: 7.9305
+Test_Median_AE: 0.1573
+Train_MAE: 0.3035
+Train_MSE: 0.2563
+Train_RMSE: 0.5063
+Train_R2: 0.9693
+Overfitting_Ratio: 0.9516
+
+CROSS-VALIDATION RESULTS:
+Baseline Model:
+CV_RMSE_mean: 0.5348
+CV_RMSE_std: 0.0084
+CV_MAE_mean: 0.3275
+CV_MAE_std: 0.0028
+CV_R2_mean: 0.9657
+CV_R2_std: 0.0013
+
+Optimized Model:
+CV_RMSE_mean: 0.5320
+CV_RMSE_std: 0.0088
+CV_MAE_mean: 0.3156
+CV_MAE_std: 0.0035
+CV_R2_mean: 0.9661
+CV_R2_std: 0.0014
+
+ERROR DISTRIBUTION METRICS:
+Baseline Model:
+Error_P90: 0.7932
+Error_P95: 1.0357
+Error_P99: 2.0065
+
+Optimized Model:
+Error_P90: 0.8046
+Error_P95: 1.0256
+Error_P99: 1.9960
+
+BEST HYPERPARAMETERS:
+n_estimators: 454
+learning_rate: 0.012615667411260257
+num_leaves: 265
+max_depth: 9
+min_child_samples: 73
+subsample: 0.5700120160844919
+colsample_bytree: 0.9938499284681216
+reg_alpha: 3.4730612665902423
+reg_lambda: 8.474090483362852
