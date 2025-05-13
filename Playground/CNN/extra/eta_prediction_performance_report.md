@@ -11,42 +11,42 @@
 
 | Metric | Baseline | Optimized | Improvement |
 |--------|----------|-----------|-------------|
-| RMSE | 0.5433 | 0.5489 | -0.0056 (-1.03%) |
-| MAE | 0.3372 | 0.3510 | -0.0138 (-4.10%) |
-| MAPE | 33457813564.2789 | 36050403410.5065 | -2592589846.2276 (-7.75%) |
-| R2 | 0.9645 | 0.9638 | -0.0007 (-0.08%) |
-| Explained_Variance | 0.9646 | 0.9639 | -0.0007 (-0.07%) |
-| P90 | 0.7899 | 0.7886 | 0.0014 (0.18%) |
-| P95 | 1.0438 | 1.0530 | -0.0092 (-0.89%) |
-| P99 | 2.0059 | 2.0349 | -0.0290 (-1.45%) |
+| RMSE | 0.5374 | 0.5383 | -0.0010 (-0.18%) |
+| MAE | 0.3328 | 0.3329 | -0.0001 (-0.03%) |
+| MAPE | 16.3540 | 16.1613 | 0.1928 (1.18%) |
+| R2 | 0.9653 | 0.9652 | -0.0001 (-0.01%) |
+| Explained_Variance | 0.9653 | 0.9653 | -0.0001 (-0.01%) |
+| P90 | 0.7917 | 0.7992 | -0.0076 (-0.95%) |
+| P95 | 1.0332 | 1.0337 | -0.0005 (-0.05%) |
+| P99 | 1.9728 | 1.9912 | -0.0185 (-0.94%) |
 
 ## 3. Overfitting Analysis
 
 | Metric | Baseline (Train/Test) | Optimized (Train/Test) |
 |--------|----------------------|------------------------|
-| RMSE | 0.5341 / 0.5433 | 0.5450 / 0.5489 |
-| MAE | 0.3344 / 0.3372 | 0.3487 / 0.3510 |
-| R2 | 0.9659 / 0.9645 | 0.9645 / 0.9638 |
+| RMSE | 0.5320 / 0.5374 | 0.5315 / 0.5383 |
+| MAE | 0.3299 / 0.3328 | 0.3292 / 0.3329 |
+| R2 | 0.9661 / 0.9653 | 0.9662 / 0.9652 |
 
 ## 4. Training Times
 
 | Process | Duration |
 |---------|----------|
-| Baseline Model Training | 0:02:05.048188 |
-| Optuna Hyperparameter Optimization | 1:24:48.389862 |
-| Optimized Model Training | 0:01:14.206765 |
-| Total Time | 1:28:07.644815 |
+| Baseline Model Training | 0:01:52.144247 |
+| Optuna Hyperparameter Optimization | 1:26:44.246171 |
+| Optimized Model Training | 0:02:27.070297 |
+| Total Time | 1:31:03.460715 |
 
 ## 5. Best Hyperparameters
 
 The following hyperparameters were found to be optimal after Optuna optimization:
-- filters1: 98
-- filters2: 119
-- kernel_size: 4
-- dense_units: 112
-- learning_rate: 0.00019352000352505002
-- batch_size: 128
-- dropout_rate: 0.2259225585771292
+- filters1: 82
+- filters2: 124
+- kernel_size: 5
+- dense_units: 128
+- learning_rate: 0.0002176513380703961
+- batch_size: 64
+- dropout_rate: 0.13588547271932222
 
 ## 6. Conclusion
 

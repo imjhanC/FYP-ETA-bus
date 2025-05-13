@@ -239,4 +239,5 @@ async def startup_event():
 if __name__ == "__main__":
     uvicorn.run("fastAPI1:app", host="0.0.0.0", port=8000, reload=True)
 
+# cd Playground\FASTAPI
 # uvicorn fastAPI1:app --host 0.0.0.0 --port 8000 --reload

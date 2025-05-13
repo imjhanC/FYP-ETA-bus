@@ -3,15 +3,15 @@ ETA PREDICTION MODEL PERFORMANCE SUMMARY
 ================================================================================
 
 TRAINING INFORMATION:
-Baseline Model Training Time: 0.17 seconds
-Optuna Optimization Time: 47.98 seconds
-Optimized Model Training Time: 1.57 seconds
+Baseline Model Training Time: 0.16 seconds
+Optuna Optimization Time: 47.87 seconds
+Optimized Model Training Time: 1.52 seconds
 
 BASELINE MODEL METRICS:
 Test_MAE: 0.3270
 Test_MSE: 0.2857
 Test_RMSE: 0.5345
-Test_MAPE: 15191530000106468.0000
+Test_MAPE: 16.0529
 Test_R2: 0.9657
 Test_Explained_Variance: 0.9657
 Test_Max_Error: 7.2591
@@ -26,7 +26,7 @@ OPTIMIZED MODEL METRICS:
 Test_MAE: 0.3158
 Test_MSE: 0.2830
 Test_RMSE: 0.5320
-Test_MAPE: 14932324710715654.0000
+Test_MAPE: 14.9407
 Test_R2: 0.9660
 Test_Explained_Variance: 0.9660
 Test_Max_Error: 7.9305
